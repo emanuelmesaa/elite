@@ -1,0 +1,25 @@
+GUÍA RÁPIDA - ¿QUÉ ARCHIVO EDITO?
+Abre la carpeta con VS Code y usa Live Server sobre index.html.
+
+PANEL DE ADMIN (productos desde el navegador): lee GUIA-ADMIN.md
+  admin/                 el panel (se abre en tu-sitio/admin/)
+  sql/setup.sql          se pega una vez en Supabase
+  js/datos/config.js     URL y clave de Supabase
+
+TUS DATOS (lo normal es editar solo esto)
+  js/datos/tienda.js     nombre, logo, WhatsApp, redes, envíos, medios de pago, textos del producto
+  js/datos/banners.js    banners del carrusel principal
+  js/datos/menu.js       menú lateral y títulos/íconos/colores de cada sección
+  js/datos/hombre.js     productos de Hombre
+  js/datos/mujer.js      productos de Mujer
+  js/datos/kids.js       productos de Kids
+  js/datos/resenas.js    reseñas reales de clientes
+  js/datos/pagos.js      íconos de medios de pago
+  img/                   tus fotos y logo
+
+DISEÑO
+  css/base.css           colores y fuentes (bloque :root al inicio)
+  css/header.css  inicio.css  catalogo.css  producto.css  pie.css  carrito.css  responsive.css
+
+LÓGICA (normalmente no se toca)
+  js/cabecera.js  inicio.js  rutas.js  catalogo.js  producto.js  carrito.js  util.js  app.js
